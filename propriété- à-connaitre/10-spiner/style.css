@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#spiner{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: transform  ease-in-out, background 500ms;
+}
+
+
+/* 
+
+@keyframes animation1 {
+
+ 0% {transform: rotate(0deg);}
+ 100% {transform: rotate(360deg);}
+}
+
+#animation-1{
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid rgb(65, 216, 131);
+    animation: animation1;
+    animation-duration: 4s;
+
+}
+
+@keyframes animation2 {
+
+    0% {background: red;}
+    25% {background: greenyellow;}
+    50% {background: violet;}
+    100% {background: orange;}
+   }
+   
+   #animation-2{
+       width: 300px;
+       height: 300px;
+       animation-delay: 2s;
+       animation: animation2;
+       animation-iteration-count: infinite;
+       animation-duration: 4s;
+       animation: animation2 4s ease-in-out 2s infinite ; 
+       animation-timing-function: ease-in-out;
+       background-color: red;   
+   } */

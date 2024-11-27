@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Site-de-design/style.css">
+    <title>مساعد تصميم الويب المتقدم</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>مساعد تصميم الويب المتقدم</h1>
+
+        <div class="tool-section">
+            <h2>نوع الموقع والغرض</h2>
+            <select id="websiteType" onchange="updateDesign()">
+                <option value="corporate">موقع شركة</option>
+                <option value="ecommerce">متجر إلكتروني</option>
+                <option value="blog">مدونة</option>
+                <option value="portfolio">معرض أعمال</option>
+            </select>
+            <div id="colorPsychologyInfo" class="color-info"></div>
+        </div>
+
+        <div class="tool-section">
+            <h2>مخطط الألوان</h2>
+            <div class="color-section">
+                <div class="color-input">
+                    <label>اللون الرئيسي</label>
+                    <input type="color" id="primaryColor" onchange="updateDesign()">
+                    <div id="primaryColorPreview" class="color-preview"></div>
+                </div>
+                <div class="color-input">
+                    <label>اللون الثانوي (يتم حسابه تلقائياً)</label>
+                    <div id="secondaryColorPreview" class="color-preview"></div>
+                </div>
+                <div class="color-input">
+                    <label>لون التأكيد (يتم حسابه تلقائياً)</label>
+                    <div id="accentColorPreview" class="color-preview"></div>
+                </div>
+            </div>
+            <div id="contrastInfo" class="contrast-info"></div>
+        </div>
+
+        <div class="tool-section">
+            <h2>النسبة الذهبية</h2>
+            <div id="goldenRatioLayout"></div>
+        </div>
+
+        <div class="tool-section">
+            <h2>معاينة التصميم</h2>
+            <div id="designPreview" class="preview"></div>
+        </div>
+    </div>
+<script src="/Site-de-design/script.js"></script>
+</body>
+
+</html>

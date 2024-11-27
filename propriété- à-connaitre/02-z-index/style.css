@@ -1,0 +1,32 @@
+div {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    color: white;
+    padding: 10px;
+    /* votre sort du flux (c'est à dire qu'il n'impact plus les autres balises html en termes d'espaces)  c'est comme si il flottait sur la page*/
+    
+}
+
+div:nth-last-of-type(1){
+    background-color: blue;
+    left: 40%;
+    z-index: 1;
+}
+div:nth-last-of-type(2){
+    background-color: red;
+    left: 50%;
+    z-index: 4;
+}
+div:nth-last-of-type(3){
+    background-color: green;
+    left: 45%;
+    top: 250px;
+    z-index: 2;
+}
+div:nth-last-of-type(4){
+    background-color: brown;
+    left: 50%;
+    top: 150px;
+    z-index: 3;
+}

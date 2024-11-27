@@ -1,0 +1,66 @@
+/* 
+color
+font-size
+font-weight
+background-color
+background:url()
+text-transform:uppercase
+text-decoration:underline
+font-family
+box-shadow
+border
+border-radius
+height
+width
+max-height
+max-width
+
+FLEX
+display
+justify-content
+align-items
+align-self
+order
+flex-wrap
+flex-shrink
+flex-grow
+flex-basis
+flex-direction
+
+margin
+padding
+text-align
+
+
+PSEUDO CLASS
+:nth-child()
+:nth-of-type()
+:last-child
+
+opacity
+rgb
+rgba()
+linear-gradient
+box-sizing
+*/
+
+.myPgh{
+    color: tomato;
+}
+#myPgh{
+    color: violet;
+}
+
+input[type="password"]{
+    border: 3px solid;
+}
+img[title="img 1"]{
+    width: 250px;
+}
+
+div#mySecondDiv ul li:nth-child(2) a{
+color: aqua;
+}
+#myThirdDiv p:first-child{
+    color: brown;
+}

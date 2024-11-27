@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/Images/logoipsum-332.svg" alt="Logo" width="30" height="24"
+                        class="d-inline-block align-text-top">MautasseM
+                </a>
+                <!-- <a class="navbar-brand" href="#">MautasseM</a> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section d-flex align-items-center">
+            <div class="container text-center text-white">
+                <h1 class="display-4">Bienvenue sur mon Portfolio</h1>
+                <p class="lead">Créatif & Passionné de Design</p>
+                <a href="#portfolio" class="btn btn-outline-light btn-lg mt-3">Voir mes projets</a>
+            </div>
+        </section>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Mes Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <i class="fas fa-paint-brush fa-3x mb-3"></i>
+                        <h4>Web Design</h4>
+                        <p>Création de designs modernes et responsifs</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <i class="fas fa-code fa-3x mb-3"></i>
+                        <h4>Développement</h4>
+                        <p>Développement de sites web performants</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <i class="fas fa-mobile-alt fa-3x mb-3"></i>
+                        <h4>Mobile First</h4>
+                        <p>Optimisation pour tous les appareils</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Mon Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="projet1.jpg" class="img-fluid" alt="Projet 1">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="text-white text-center">
+                                <h5>Projet 1</h5>
+                                <p>Web Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                Répéter pour d'autres projets
+                <!-- </div>
+        </div>-->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contactez-moi</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Votre nom">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Votre email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Votre message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 MautasseM. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script src="/JS/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

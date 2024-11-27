@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+}
+
+.transtistion-1 {
+    background-color: crimson;
+    transition-property: all;
+    transition-property: background;
+    transition-duration: 2s;
+}
+
+.transtistion-1:hover {
+    background-color: rgb(55, 55, 211);
+    transform: rotate(30deg);
+    transition-timing-function: ease-out;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+
+/* au survol de mon container je veux que mes .box est une width de 600px */
+
+.container:hover .box {
+    width: 600px;
+}
+
+.timing-1 {
+    background: #1abc9c;
+
+    /* transition-timing-function: linear; */
+    transition-timing-function: cubic-bezier(1, 0.2, 0, 0.86);
+}
+
+.timing-2 {
+    background: #16a085;
+    transition-timing-function: ease-in;
+}
+
+.timing-3 {
+    background: #2ecc71;
+    transition-timing-function: ease-out;
+}
+
+.timing-4 {
+    background: #27ae60;
+    transition-timing-function: ease-in-out;
+}
+
+.transtistion-3{
+background-color: #301b1f;
+transition: transform 0.6s cubic-bezier(1,0.2,0,0.86);
+}
+.transtistion-3:hover{
+    transform: rotate(30deg);
+}
+
+.transtistion-4{
+    background-color: #351530;
+    transition: transform 1s ease-in 2s;
+    }
+
+    .transtistion-4:hover{
+        transform: rotate(30deg);
+    }
+
+    .transtistion-5{
+        background: #351530;
+        transition: transform 1s ease-in, background 500ms ease-in-out;
+        }
+    
+        .transtistion-5:hover{
+            transform: rotate(30deg);
+            background: #0cd8af;
+        }
+
+    #créative{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(22, 218, 218);
+        transition: all ease-in 2s;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    #créative:hover{
+        /* border-radius: 50%;
+        background-color: #351530;
+        transition: transform 1s ease-in 2s; */
+        top: 50%;
+        left: 50%;
+    }

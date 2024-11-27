@@ -1,0 +1,115 @@
+/*
+
+################################
+||                            ||
+||      Commun                ||
+||                            ||
+################################
+
+
+*/
+
+/*
+################################
+||                            ||
+||          Commun            ||
+||                            ||
+################################
+*/
+
+/*  */
+
+.d-flex {
+    display: flex;
+}
+.justify-content-center {
+    justify-content:center;
+}
+.w-50{
+    width: 50%;
+}
+.f-row{
+    flex-direction: row;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.w-color {
+    color: white;
+}
+
+
+.border {
+    border: 2px solid rgb(15, 238, 7);
+}
+
+/*
+        
+################################
+||                            ||
+||          Header            ||
+||                            ||
+################################
+
+*/
+
+header {
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    margin-top: 100px;
+}
+#Valide{
+    background-color: #28B049;
+    padding: 5px;
+    border-radius: 3px;
+}
+#Valide a{
+    text-decoration: none;
+    
+}
+
+form{
+    margin-top: 330px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #E3E3E3;
+    width: 55%;
+    opacity: calc(0.6);
+
+}
+
+#d-arrow{
+    margin-top: 1rem;
+    margin-left: 5px;
+}
+#prix-croissant{
+    border: 1px white black;
+    border-radius: 3px;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(212, 238, 238);
+    padding: 5px;
+}
+
+#prix-croissant p{
+    padding-left: 2px;
+
+}

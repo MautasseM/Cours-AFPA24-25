@@ -1,0 +1,22 @@
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+.btn-custom {
+    background-color: #6c0070;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background-color: #5a005d;
+}
+
+.table th,
+.table td {
+    color: #fff;
+}
+
+small::before {
+    content: "Total : "
+}
